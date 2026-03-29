@@ -16,11 +16,12 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img width="1893" height="909" alt="image" src="https://github.com/user-attachments/assets/53e4c5b6-672b-4fbd-8d40-1d65a6f4972f" />
+
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+<img width="455" height="826" alt="image" src="https://github.com/user-attachments/assets/b08c5dc9-b3ad-40e7-b611-c5f96f7046f2" />
+<img width="455" height="826" alt="image" src="https://github.com/user-attachments/assets/7c684b29-3f32-4974-9634-d9e7a43e1ad9" />
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

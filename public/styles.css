@@ -1,0 +1,187 @@
+
+body {
+    background-color: rgb(37, 0, 0);
+    color: white;
+    min-height: 1080px;
+    overflow-x: hidden; 
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 60px;
+}
+
+.logo-area h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hora-inline {
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
+}
+
+.layout-principal {
+    display: flex;
+    flex: 1;
+    padding: 0 60px 40px 40px;
+}
+
+.barralateral {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    background-color: rgb(56, 0, 0);
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    background-color: rgb(80, 0, 0);
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.pergunta-central {
+    font-size: 38px;
+    margin-bottom: 80px;
+    margin-top: -10rem;
+}
+
+.opcoes-container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.coluna h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.coluna label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.motivo-container {
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.caixa-texto {
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 60px;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    outline: none;
+}
+@media (max-width: 768px) {
+    
+.wrapper {
+    height: auto;
+}
+
+.header-topo {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-area h1 {
+    font-size: 32px;
+}
+
+.hora-inline {
+    font-size: 32px;
+    display: block;
+    margin-left: 0;
+}
+
+.layout-principal {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.barralateral {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+.conteudo {
+    padding-top: 0;
+}
+
+.pergunta-central {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.opcoes-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.coluna {
+    text-align: center;
+}
+
+.coluna label {
+    font-size: 18px;
+}
+
+.motivo-container {
+    max-width: 100%;
+}
+
+.caixa-texto {
+    height: 250px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 16px;
+}
+}

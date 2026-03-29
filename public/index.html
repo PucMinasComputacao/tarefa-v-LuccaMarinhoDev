@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../public/styles.css">
+    <title>Resolve Aqui 24h</title>
 </head>
 <body>
-    
+    <header class="header-topo">
+        <div class="logo-area">
+            <h1>Resolve Aqui <span class="hora-inline">24h</span></h1>
+        </div>
+        <div class="usuario-perfil">
+            <span>Usuário</span>
+            <div class="avatar"></div>
+        </div>
+    </header>
+
+    <main class="layout-principal">
+        <nav class="barralateral">
+            <a href="#" class="nav-item">Início</a>
+            <a href="#" class="nav-item">Meus chamados</a>
+            <a href="#" class="nav-item">Histórico de resoluções</a>
+            <a href="#" class="nav-item">Reclamar</a>
+            <a href="#" class="nav-item">Avaliar</a>
+            <a href="#" class="nav-item">Sobre o site</a>
+            <a href="#" class="nav-item ativo">Configurações</a>
+        </nav>
+
+        <section class="conteudo">
+            <h2 class="pergunta-central">Como você pode ser ajudado no momento?</h2>
+            
+            <div class="opcoes-container">
+                <div class="coluna">
+                    <h3>Nível de urgência</h3>
+                    <label><input type="radio" name="urgencia"> Baixo</label>
+                    <label><input type="radio" name="urgencia"> Médio</label>
+                    <label><input type="radio" name="urgencia"> Alto</label>
+                </div>
+
+                <div class="coluna">
+                    <h3>Tempo de resposta</h3>
+                    <label><input type="radio" name="tempo"> Normal (R$0,00)</label>
+                    <label><input type="radio" name="tempo"> Rápido (+R$5,00)</label>
+                </div>
+            </div>
+
+            <div class="motivo-container">
+                <h3>Motivo da ajuda</h3>
+                <textarea class="caixa-texto"></textarea>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

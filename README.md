@@ -9,10 +9,10 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Lucca Marinho Eterovik Tavares Pereira
+- Matricula: 913529
+- Proposta de projeto escolhida: Resolve Aqui
+- Breve descrição sobre seu projeto: A proposta consiste no desenvolvimento de uma plataforma digital chamada ResolveAqui, que conecta pessoas com problemas do dia a dia a especialistas capazes de oferecer soluções rápidas e personalizadas. O sistema permite que o usuário descreva sua dificuldade e receba suporte sob demanda, reduzindo o tempo e a ineficiência de buscas genéricas na internet. O projeto tem como objetivo facilitar o acesso a conhecimento prático, promovendo agilidade, praticidade e conexão entre quem precisa de ajuda e quem sabe resolver.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
